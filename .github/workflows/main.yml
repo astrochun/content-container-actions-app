@@ -8,8 +8,8 @@ jobs:
     - name: checkout
       uses: actions/checkout@v2
     - name: Hello world action step
-      id: hello
       uses: ./
+      id: hello
       with:
         who-to-greet: 'Chun Ly'
     # Use the output from the `hello` step
